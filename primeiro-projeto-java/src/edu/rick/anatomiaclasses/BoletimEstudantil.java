@@ -1,4 +1,4 @@
-package edu.rick.primeirasemana;
+package edu.rick.anatomiaclasses;
 public class BoletimEstudantil {
 
     public static void main(String[] args) {
