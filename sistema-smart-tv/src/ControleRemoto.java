@@ -55,8 +55,8 @@ public class ControleRemoto {
             }
         }
     }
-    
-//COMANDO PARA ESCOLHER O CANA
+
+//COMANDO PARA ESCOLHER O CANAL
     private void mudarCanal() {
         System.out.println("Digite o canal desejado: ");
         int novoCanal = scanner.nextInt();

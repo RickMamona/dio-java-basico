@@ -3,7 +3,6 @@ public class Usuario {
 
         SmartTv smartTv = new SmartTv();
         ControleRemoto controleRemoto = new ControleRemoto(smartTv);
-        
         controleRemoto.exibirMenu();
     }
 }
