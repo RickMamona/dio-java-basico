@@ -4,6 +4,8 @@ public class SmartTv {
     int canal;
     int volume;
 
+    //IMPLEMENTAÇÃO DOS COMANDOS.
+
     public SmartTv(){
         canal = 1;
         volume = 10;
