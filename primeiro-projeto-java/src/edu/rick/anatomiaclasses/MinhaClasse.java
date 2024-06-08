@@ -15,7 +15,6 @@ public class MinhaClasse {
 
         return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
 
-
     }
-    
+
 }
