@@ -53,6 +53,11 @@ public class ControleRemoto {
                 default:
                     System.out.println("Opção inválida!");
             }
+            // MOSTRAR ESTADO DA TELEVISAO APOS COMANDO
+            if (smartTv.ligada) {
+                System.out.println(smartTv);
+                
+            }
         }
     }
 

@@ -42,6 +42,8 @@ public class SmartTv {
         ligada = false;
     }
 
+    //RETORNAR ESTADO DA TELEVISÃO APOS COMANDO
+
     public String toString(){
         return "Televisao {" + 
         "canal = " + canal +
