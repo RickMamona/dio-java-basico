@@ -5,4 +5,5 @@ public class Usuario {
         ControleRemoto controleRemoto = new ControleRemoto(smartTv);
         controleRemoto.exibirMenu();
     }
+    
 }
