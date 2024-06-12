@@ -22,8 +22,7 @@ public class ExemploDoWhile {
         boolean atendeu = new Random().nextInt(3)==1;
         System.out.println("Atendeu? " + atendeu);
 
-        //negando o ato de contiunuar tocando
+        //negando o ato de continuar tocando
         return ! atendeu;
     }
-
 }
