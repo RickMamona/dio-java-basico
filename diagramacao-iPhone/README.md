@@ -1,18 +1,29 @@
-## Getting Started
+# Diagramação de classes do iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Neste repositório, está disponível uma implementação detalhada de um desafio de modelagem de software, cujo objetivo é representar, de maneira precisa e abrangente, as funcionalidades de um iPhone. O projeto aplica princípios de programação orientada a objetos e técnicas de modelagem UML para desenvolver uma estrutura robusta e versátil, permitindo que o dispositivo iPhone desempenhe três funções essenciais e distintas: Reprodutor de Música, Aparelho Telefônico e Navegador de Internet.
 
-The workspace contains two folders by default, where:
+## Diagrama UML
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+<p align="center">
+  <img src="docs/iPhone-modelagem.png" alt="Diagrama de Classes">
+</p>
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Reprodutor Musical
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Métodos: tocar(), pausar(), selecionarMusica(String musica)
 
-## Dependency Management
+### Aparelho Telefonico
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Métodos: ligar(String numero), atender(), iniciarCorreioVoz()
+
+### Navegador na Internet
+
+Métodos: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
+
+### iPhone
+
+A classe `iPhone` é a classe principal que representa o dispositivo. Ela implementa as interfaces `ReprodutorMusical`, `AparelhoTelefonico` e `NavegadorInternet`. Isso permite que o iPhone desempenhe os papéis de reprodutor musical, aparelho telefônico e navegador na Internet. Sendo testando cada um deles.
+
+Para acessar Diagrama UML [clique aqui](docs/iPhone-modelagem.pdf) para ser redirecionado ao arquivo PDF.
