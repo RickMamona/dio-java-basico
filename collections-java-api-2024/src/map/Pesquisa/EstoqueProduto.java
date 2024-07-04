@@ -42,15 +42,15 @@ public class EstoqueProduto {
     }
 
     public Produto obterProdutoMaisBarato(){
-        Produto maisBarato = null;
+        Produto produtoMaisBarato = null;
         if (!estoqueProdutosMap.isEmpty()) {
             for (Produto p : estoqueProdutosMap.values()) {
-                if (maisBarato == null || p.getPreco() < maisBarato.getPreco()) {
-                    maisBarato = p;
+                if (produtoMaisBarato == null || p.getPreco() < produtoMaisBarato.getPreco()) {
+                    produtoMaisBarato = p;
                 }
             }
         }
-        return maisBarato;
+        return produtoMaisBarato;
     }
 
     public Produto obterProdutoMaiorQuantidadeValorTotalNoEstoque(){
@@ -76,7 +76,7 @@ public class EstoqueProduto {
         estoque.adicionarProduto(1L, "Produto A", 5, 10);
         estoque.adicionarProduto(2L, "Produto B", 10, 5);
         estoque.adicionarProduto(3L, "Produto C", 15, 2);
-        //estoque.adicionarProduto(4L, "Produto D", 20, 2);
+        estoque.adicionarProduto(4L, "Produto D", 20, 2);
 
 
         estoque.exibirProduto();
