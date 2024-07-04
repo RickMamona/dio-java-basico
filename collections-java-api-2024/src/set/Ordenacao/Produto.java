@@ -1,5 +1,4 @@
 package set.Ordenacao;
-import java.util.Comparator;
 
 public class Produto implements Comparable<Produto> {
 
