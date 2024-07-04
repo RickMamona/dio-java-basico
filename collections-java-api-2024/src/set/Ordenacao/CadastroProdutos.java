@@ -35,16 +35,8 @@ public class CadastroProdutos {
         cadastroProdutos.adicionarProduto(2, "Produto 2", 20, 1);
         cadastroProdutos.adicionarProduto(3, "Produto 3", 10, 5);
         cadastroProdutos.adicionarProduto(4, "Produto 4", 5, 10);
-
-
         System.out.println(cadastroProdutos.produtoSet);
-
         System.out.println(cadastroProdutos.exibirProdutosPorNome());
         System.out.println(cadastroProdutos.exibirProdutosPorPreco());
     }
-
-
-
-    
-
 }
