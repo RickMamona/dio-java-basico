@@ -1,4 +1,4 @@
-package dio.spring_data_jpa;
+package dio.aula;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
