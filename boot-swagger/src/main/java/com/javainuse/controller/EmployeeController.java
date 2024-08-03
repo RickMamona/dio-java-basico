@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.javainuse.handler.BusinessException;
+import com.javainuse.handler.CampoObrigatorioExceprtion;
 import com.javainuse.model.Employee;
 
 @RestController
@@ -38,6 +40,12 @@ public class EmployeeController {
 
 	@PostMapping
 	public Employee create(@RequestBody Employee user) {
+		if (user.getName()==null) {
+			throw new CampoObrigatorioExceprtion("login");	
+		}
+		if (user.getDesignation()==null) {
+			throw new CampoObrigatorioExceprtion("designation");	
+		}
 		employees.add(user);
 		System.out.println(employees);
 		return user;
