@@ -1,3 +1,4 @@
+package singleton;
 public class SingletonEager {
 
     private static SingletonEager instace = new SingletonEager();
